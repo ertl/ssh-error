@@ -1,0 +1,23 @@
+{
+  "name": "ssh-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ssh2-sftp-client": "^10.0.3",
+    "tslib": "^2.6.3"
+  },
+  "devDependencies": {
+    "@types/ssh2-sftp-client": "^9.0.3",
+    "typescript": "^5.5.3",
+    "@types/node": "^20.14.11",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "pnpm build && node ./dist/main.js"
+  }
+}
